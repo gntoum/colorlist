@@ -1,0 +1,32 @@
+.top-header{background-color: #9a1b9a;}
+.top-header h2{text-align:center;color:white;padding: 50px 0;}
+#footer-info{color:white; margin-bottom:0; padding:10px 0;}
+.form-title{font-size: 18px; font-weight: bold; border-bottom: 1px solid #ccc; padding-bottom: 6px;}
+form label{display: block; font-weight: bold; font-size: 14px; margin-bottom: 4px;}
+form input{width:100%;}
+input[type="radio"]{ width:auto;}
+input[type="checkbox"]{ width:auto;    margin-right: 10px;}
+body{padding-top: 25px;}
+.button {
+	color:white;
+    background-color: #008000;
+    border-color: #008000;
+    float: left;
+}
+.color-swatch{
+	float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+	margin-right: 10px;
+}
+
+.color-swatch.selected{
+	box-shadow: 0px 0px 13px black;
+    border: 2px solid #000000;
+}
+
+#colorlist{
+	border-top: 1px dotted;
+    padding-top: 20px;
+}
